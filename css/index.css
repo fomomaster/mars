@@ -1,0 +1,109 @@
+.countdown {
+  margin: auto;
+}
+
+.column-reverse .card-body,
+.filling-stage .card-body,
+.launch-stage .card-body{
+  padding: 1.5rem 1.25rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1.9rem;
+}
+
+.filling-progress .card-body {
+  padding: 1.25rem;
+}
+.filling-progress .card-text{
+  line-height: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.bg-translucent {
+  background: hsla(0, 0%, 100%, 0.5);
+}
+
+.earnings .bg-translucent {
+  /* padding: 0.72rem; */
+  border: hsla(0, 0%, 100%, 0.5);
+}
+
+.auction-stage .card-text {
+  font-size: 1.1rem
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: transparent;
+}
+
+.nav-pills .nav-link {
+  color: rgba(255, 255, 255, .5);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #333;
+}
+
+.nav-pills .nav-link {
+  color: rgba(0, 0, 0, .5);
+}
+
+.mw-title {
+  width: 5rem;
+}
+
+.mw-unit {
+  width: 3.5rem;
+}
+
+.dividing-line .card {
+  border: 0;
+  border-radius: 0;
+  border-right: 1px solid rgba(0, 0, 0, .125);
+}
+
+.dividing-line .card-text {
+  margin-top: 1rem;
+}
+
+.dividend-search .custom-select {
+  max-width: 10rem;
+}
+
+.dividend-result {
+  display: none;
+}
+
+.dividend-my {
+  display: none;
+}
+
+.warning-pan{
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, .5);
+  padding: 3rem 0;
+}
+
+.dividend-search button{
+  font-size: inherit;
+}
+
+@media (max-width: 768px) {
+  .column-reverse {
+    flex-direction: column-reverse;
+  }
+  .dividing-line .card {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+  }
+}

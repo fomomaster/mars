@@ -1,0 +1,181 @@
+body {
+  font: 14px/1.5 Trebuchet MS, Helvetica, Tahoma, Arial, sans-serif;
+  color: #333;
+  background: #333;
+}
+
+main {
+  margin: auto;
+  padding: 3rem;
+  max-width: 70rem;
+}
+
+/* input {
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    resize: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+} */
+
+.wb-w {
+  word-break: break-word;
+}
+
+.fz-1 {
+  font-size: 1rem;
+}
+
+select:focus,
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.navbar {
+  margin: auto;
+  max-width: 70rem;
+  padding: 1rem 3rem;
+}
+
+.dropdown-item {
+  font-size: 0.8rem;
+}
+
+.dropdown-menu {
+  min-width: 5rem;
+}
+
+.globalization {
+  border: 0;
+  color: #fff;
+  background: transparent;
+}
+
+.globalization:focus,
+input:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.globalization option {
+  color: #495057;
+}
+
+.card-header {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.masthead {
+  padding: 1rem 3rem;
+  margin: auto;
+  max-width: 70rem;
+}
+
+.masthead-brand {
+  float: left;
+}
+
+.nav-masthead a {
+  color: #fff;
+}
+
+.bg-img {
+  position: fixed;
+  display: block;
+  z-index: -1;
+  left: -5%;
+  top: -5%;
+  width: 110%;
+  height: 110%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.filling-img {
+  background-image: url(../img/bg.jpg);
+}
+
+.launch-img {
+  background-image: url(../img/bg1.jpg);
+}
+
+.translucent {
+  position: relative;
+  background: hsla(0, 0%, 100%, 0.5);
+  overflow: hidden;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+}
+
+.loading .loading-img {
+  width: 30%;
+}
+
+.card-title-justified {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-size: cover;
+}
+
+.icon-question {
+  background-image: url(../img/icon/question.png);
+}
+
+/* .translucent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(20px);
+} */
+
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  .navbar {
+    padding: 1rem
+  }
+}
