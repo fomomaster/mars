@@ -90,7 +90,8 @@
    * @param {function} callback
    */
   api.getTime = function (callback) {
-    var date = new Date($.ajax({async: false}).getResponseHeader("Date"));
+    // var date = new Date($.ajax({async: false}).getResponseHeader("Date"));
+    var date = new Date();
     callback(null, parseInt(date.getTime().toString()));
   }
 
