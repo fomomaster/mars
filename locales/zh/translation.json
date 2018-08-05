@@ -54,7 +54,7 @@
     "walletTransferTutorial": "钱包转账教程",
     "transferTutorialTip1": "1）推荐使用imToken钱包转账",
     "transferTutorialTip2": "2）进入ETH转账页面，开启高级选项",
-    "transferTutorialTip3": "3）收款人钱包地址处填写合约地址：0x0B588A1d41518991a94590a7884f52B8836df38d",
+    "transferTutorialTip3": "3）收款人钱包地址处填写合约地址：0xd0063Fa52dc63DCa7523D8BCf02b8EF54633937e",
     "transferTutorialTip4": "4）转账金额处填写你需要购买燃料的总价，智能合约会根据当前燃料单价和计价公式去计算你获得的燃料",
     "transferTutorialTip4_1": "4）请根据最新竞价范围填写金额。注：由于竞价过于激烈， 会出现多人同时出价的情况， 由于以太坊网络情况可能会造成其他竞价者的出价优先打包， 你的出价将会失败， 如果你想百分百出价成功， 可以高于当前竞价范围数倍的金额进行出价， 智能合约会根据当前最新的出价的基础上 + 10E TH来确定的你出价， 剩余金额会原路返回。",
     "transferTutorialTip5": "5）自定义Gas Price 处请根据以太坊网络拥堵情况填写，不拥堵推荐5-20，拥堵的情况下推荐填写20-100",

@@ -6,16 +6,17 @@
   var api = {};
 
   //conf
-  //var address = '0xEBA5ff1896bC25C648353DE0775A99de821f96bc';
-  var address = '0x0B588A1d41518991a94590a7884f52B8836df38d';
+  var address = '0x38008B4b0B187f4748a0Cf63b1b3e028b0DB0a40';
+
   //var endpoint = 'http://127.0.0.1:9545';
-  var endpoint = 'https://mainnet.infura.io/f7ae9b7f9d654473aba35e68911328e8';
+  var endpoint = 'https://mainnet.infura.io/d8c35f63217149d0b1946c1a4c3ee390';
 
   //init web3
   var web3Wallet;
   var defaultAccount;
   var isMainNet = true;
   var accountListnerAction = [];
+
   // 10 gwei
   var defaultGasPrice = 10000000000;
   var minGasPrice = 3000000000;

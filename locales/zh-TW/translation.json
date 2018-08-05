@@ -54,7 +54,7 @@
     "walletTransferTutorial": "錢包轉賬教程",
     "transferTutorialTip1": "1）推薦使用imToken錢包轉賬",
     "transferTutorialTip2": "2）進入ETH轉賬頁面，開啟高級選項",
-    "transferTutorialTip3": "3）收款人錢包地址處填寫合約地址：0x0B588A1d41518991a94590a7884f52B8836df38d",
+    "transferTutorialTip3": "3）收款人錢包地址處填寫合約地址：0xd0063Fa52dc63DCa7523D8BCf02b8EF54633937e",
     "transferTutorialTip4": "4）轉賬金額處填寫妳需要購買燃料的總價，智能合約會根據當前燃料單價和計價公式去計算妳獲得的燃料",
     "transferTutorialTip4_1": "4）請根據最新競價範圍填寫金額。註：由於競價過於激烈， 會出現多人同時出價的情況， 由於以太坊網絡情況可能會造成其他競價者的出價優先打包， 妳的出價將會失敗， 如果妳想百分百出價成功， 可以高於當前競價範圍數倍的金額進行出價， 智能合約會根據當前最新的出價的基礎上 + 10E TH來確定的妳出價， 剩余金額會原路返回。",
     "transferTutorialTip5": "5）自定義Gas Price 處請根據以太坊網絡擁堵情況填寫，不擁堵推薦5-20，擁堵的情況下推薦填寫20-100",
