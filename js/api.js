@@ -5,11 +5,11 @@
 (function () {
   var api = {};
 
-  //conf
-  var address = '0x38008B4b0B187f4748a0Cf63b1b3e028b0DB0a40';
+  //contract address
+  var address = '0xd0063Fa52dc63DCa7523D8BCf02b8EF54633937e';
 
   //var endpoint = 'http://127.0.0.1:9545';
-  var endpoint = 'https://mainnet.infura.io/d8c35f63217149d0b1946c1a4c3ee390';
+  var endpoint = 'https://mainnet.infura.io/v3/d8c35f63217149d0b1946c1a4c3ee390';
 
   //init web3
   var web3Wallet;
