@@ -1,4 +1,5 @@
 $(function() {
+
   if (window.localStorage) {
     var keys = window.localStorage.getItem('keys');
     if (keys < 10000000) {
@@ -9,4 +10,5 @@ $(function() {
       $('.launch-stage').show();
     }
   }
+
 })

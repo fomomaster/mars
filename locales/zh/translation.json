@@ -9,8 +9,8 @@
     "contract": "智能合约"
   },
   "index": {
-    "rocket": "阿波罗 ",
-    "motto": "我们决定登月 -- 约翰·费茨杰拉德·肯尼迪",
+    "rocket": "登陆火星 ",
+    "motto": "探索人类宇宙文明的新边疆",
     "introduction": "游戏分为燃料填充与火箭发射两个阶段，给不同的风险偏好者不同的选择，更有趣更刺激。",
     "pot": "奖金池",
     "totalInvested": "总投入: ",
@@ -27,8 +27,8 @@
     "buy": "购买燃料",
     "bidding": "参与竞价",
     "otherWalletUsers": "其他钱包用户",
-    "buyTip": "请复制合约地址去钱包转账进行购买。转账手续费设置：Gas Price 请根据以太坊网络拥堵情况填写，Gas 填写1,000,000。",
-    "biddingTip": "请复制合约地址去钱包转账进行竞价。转账手续费设置：Gas Price 请根据以太坊网络拥堵情况填写，Gas 填写1,000,000。",
+    "buyTip": "请复制合约地址去钱包转账进行购买。转账手续费设置：Gas Price 请根据以太坊网络拥堵情况填写，建议4~20GWei，Gas limit 填写1,000,000。",
+    "biddingTip": "请复制合约地址去钱包转账进行竞价。转账手续费设置：Gas Price 请根据以太坊网络拥堵情况填写，建议4~20GWei，Gas limit 填写1,000,000。",
     "copyAddress": "复制合约地址",
     "viewTutorial": "查看转账教程",
     "noMetaMaskAccount": "暂无检测到MetaMask插件地址，请开启插件或输入地址查询",

@@ -3,8 +3,14 @@ function onlyLetterNumber(obj) {
 }
 $(function() {
   i18n.init({
+    debug:false,
     resGetPath: 'locales/__lng__/__ns__.json',
-    lng: 'en'
+    load: 'currentOnly',
+    lng: 'zh',
+    fallbackLng: 'zh',
+    fixLng: true,
+    useCookie: false,
+    useLocalStorage: true,
   }, function(t) {
     $('body').i18n();
   });

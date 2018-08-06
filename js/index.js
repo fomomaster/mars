@@ -1,14 +1,18 @@
 $(function () {
   $('[data-toggle="popover"]').popover();
+
   //retain the maximum number of decimals
   var maxDecimals = 4;
+
   //initialize BigNumber
   var BigNumber = new Web3().BigNumber;
+
   //MetaMask monitoring
   var maskAccount = '';
   api.addAccountListener(function (account) {
     maskAccount = account;
   })
+
   //synchronize server time
   var jetLag;
   api.getTime(function (err, res) {
