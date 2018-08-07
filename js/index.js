@@ -11,7 +11,7 @@ $(function () {
   var maskAccount = '';
   api.addAccountListener(function (account) {
     maskAccount = account;
-  })
+  });
 
   //synchronize server time
   var jetLag;
@@ -49,7 +49,7 @@ $(function () {
         $('.countdown .card-title').html('12:00:00');
         $('.leader').html($.t('dynamic.waitingInvestor'));
         $('.unit-price').html('0.000075 ETH');
-        $('.filling-progress .card-text').html('0/10,000,000 Kg');
+        $('.filling-progress .card-text').html('0/10,000,000 Pow');
         $('#pills-buy .total-price').html('= ' + (api.calEthByKeys(0, parseFloat($('#pills-buy .total-fuel').val()))).toFixed(8) + ' ETH');
         $('#pills-buy .total-price').data('total', (api.calEthByKeys(0, parseFloat($('#pills-buy .total-fuel').val()))).toFixed(8));
       } else {
@@ -75,7 +75,7 @@ $(function () {
           $('.filling-progress .card-text').html(
             new BigNumber(
               res.keys.toFixed(0)
-            ).toFormat() + '/10,000,000 Kg'
+            ).toFormat() + '/10,000,000 Pow'
           );
           $('.filling-progress .progress-bar').attr('style', 'width:' + percentage + '%');
         } else {
@@ -153,6 +153,7 @@ $(function () {
       $('.dividend-address').val(maskAccount);
       dividendSearch(round, maskAccount);
     });
+
     //earnings withdraw
     $('body').on('click', '.dividend-withdrawal', function () {
       round = $(this).data('round');
@@ -206,7 +207,7 @@ $(function () {
           var pendingWithdraw = (totalDividend - res.withdraw).toFixed(maxDecimals);
           $('.dividend-result .round').html('#' + round);
           $('.dividend-result .investment').html(new BigNumber((res.eth).toFixed(maxDecimals)).toFormat() + ' ETH');
-          $('.dividend-result .fuel-holding').html(new BigNumber((res.keys).toFixed(2)).toFormat() + ' Kg');
+          $('.dividend-result .fuel-holding').html(new BigNumber((res.keys).toFixed(2)).toFormat() + ' Pow');
           $('.dividend-result .dividend-details').html(new BigNumber(pendingWithdraw).toFormat() + ' / ' + new BigNumber(totalDividend).toFormat() + ' ETH');
           $('.dividend-result .dividend-withdrawal').data('round', round);
           $('.dividend-result .dividend-copy').attr('data-clipboard-text', api.createHexWithdraw(round));
@@ -220,8 +221,6 @@ $(function () {
         }
       }
     }
-
-
   })();
 
   //Pot
@@ -263,7 +262,6 @@ $(function () {
         $('#alertModal .alert-text').html($.t('dynamic.unopened'));
         $('#alertModal').modal('show');
       }
-
     });
 
     function awardSearch(round) {
